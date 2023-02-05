@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.gif img{
+    position: absolute;
+   
+    right: -300px;
+    width: 200px;
+    height: 100px;
+    animation-duration: 20s;
+    animation-delay: 1;
+    animation-name: birds;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    
+    
+    
+
+}
+
+@keyframes birds{
+    
+
+    from{right:-300px; top:250px;}
+
+    to{right:1600px; top:250px;}
+}
